@@ -10,15 +10,20 @@
    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="container ">
-        <a type="submit" id="submit" onclick="play()"class="button">
-          <div class="button__line"></div>
-          <div class="button__line"></div>
-          <span class="button__text">Play Mario-Game</span>
-          <div class="button__drow1"></div>
-          <div class="button__drow2"></div>
+    <div class="container">
+      <div class="pt-5 mt-5 ">
+        <a type="submit" id="btn" onclick="play(), this.style.display='none'"class="button">
+          <div class="button__line" id="btn"></div>
+          <div class="button__line" id="btn"></div>
+          <span class="button__text" id="btn">Play Mario-Game</span>
+          <div class="button__drow1" id="btn"></div>
+          <div class="button__drow2" id="btn"></div>
         </a>
-        <div class="position-absolute top-50 start-50 translate-middle">
+        
+      </div>
+      
+
+        <div class="position-absolute top-10 start-50 translate-center">
             <canvas id="game" width="350" height="512"></canvas>
             <script src="./js/game.js"></script>
         </div>

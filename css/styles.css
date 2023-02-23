@@ -2,6 +2,8 @@ html {
     background: linear-gradient(45deg,#ff9482,#7D77FF );
     background-repeat: no-repeat;
 }
+
+
 :root{
 
     --line_color : #555555 ;
@@ -442,6 +444,11 @@ html {
     flex-direction : column ;
     justify-content : center ;
     align-items : center ;
+}
+
+canvas {
+   margin-top: 700px;
+   margin-left: -180px;
 }
 
 a {
